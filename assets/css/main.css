@@ -4245,7 +4245,7 @@ input, select, textarea {
 }
 
 /* Phone Landscape Width */
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
 
 	.carousel {
 		width: 100%;
