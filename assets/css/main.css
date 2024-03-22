@@ -4223,7 +4223,7 @@ input, select, textarea {
 		background-size: cover;
 	}
 
-/* Phone Width */
+/* Phone Portrait Width */
 @media (max-width: 780px) {
 
 	.carousel {
@@ -4241,5 +4241,26 @@ input, select, textarea {
 
 	input:checked + label {
 		width: 100px;
+	}
+}
+
+/* Phone Landscape Width */
+@media (max-width: 950px) {
+
+	.carousel {
+		width: 100%;
+		height: 80vh;
+	}
+
+	.carouselbox {
+		height: 300px;
+	}
+
+	.card {
+		width: 20px;
+	}
+
+	input:checked + label {
+		width: 500px;
 	}
 }
